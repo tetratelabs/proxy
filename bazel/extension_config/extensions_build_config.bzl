@@ -460,7 +460,7 @@ ENVOY_CONTRIB_EXTENSIONS = {
     #
 
     "envoy.filters.http.dynamo":                                "//contrib/dynamo/filters/http/dynamo:config",
-    "envoy.filters.http.golang":                                "//contrib/golang/filters/http/source:config",
+    # "envoy.filters.http.golang":                                "//contrib/golang/filters/http/source:config",
     "envoy.filters.http.squash":                                "//contrib/squash/filters/http/source:config",
     "envoy.filters.http.sxg":                                   "//contrib/sxg/filters/http/source:config",
 
@@ -469,7 +469,7 @@ ENVOY_CONTRIB_EXTENSIONS = {
     #
 
     "envoy.filters.network.client_ssl_auth":                    "//contrib/client_ssl_auth/filters/network/source:config",
-    "envoy.filters.network.golang":                             "//contrib/golang/filters/network/source:config",
+    # "envoy.filters.network.golang":                             "//contrib/golang/filters/network/source:config",
     "envoy.filters.network.kafka_broker":                       "//contrib/kafka/filters/network/source:kafka_broker_config_lib",
     "envoy.filters.network.kafka_mesh":                         "//contrib/kafka/filters/network/source/mesh:config_lib",
     "envoy.filters.network.mysql_proxy":                        "//contrib/mysql_proxy/filters/network/source:config",
@@ -510,8 +510,8 @@ ISTIO_DISABLED_EXTENSIONS = [
 ]
 
 ISTIO_ENABLED_CONTRIB_EXTENSIONS = [
-    "envoy.filters.http.golang",
-    "envoy.filters.network.golang",
+    # "envoy.filters.http.golang",
+    # "envoy.filters.network.golang",
     "envoy.filters.network.mysql_proxy",
     "envoy.filters.network.postgres_proxy",
     "envoy.filters.network.sip_proxy",
